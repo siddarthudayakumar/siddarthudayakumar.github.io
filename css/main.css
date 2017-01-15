@@ -1574,7 +1574,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #DB5C66 !important;
 		}
 
 	strong, b {
@@ -2105,6 +2105,82 @@
 					width: 2.5em;
 				}
 
+		ul.feature-icons-education {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.feature-icons-education li {
+				text-decoration: none;
+				display: inline-block;
+				margin: 0 0 1.6875em 0;
+				padding: 0.35em 0 0 3.5em;
+				position: relative;
+				vertical-align: top;
+				width: 48%;
+			}
+
+				ul.feature-icons-education li:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				ul.feature-icons-education li:before {
+					background: #DB5C66;
+					border-radius: 100%;
+					color: #ffffff;
+					display: block;
+					height: 2.5em;
+					left: 0;
+					line-height: 2.5em;
+					position: absolute;
+					text-align: center;
+					top: 0;
+					width: 2.5em;
+				}
+
+        ul.feature-icons-footer {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.feature-icons-footer li {
+				text-decoration: none;
+				display: inline-block;
+				margin: 0 0 1.6875em 0;
+				padding: 0.35em 0 0 3.5em;
+				position: relative;
+				vertical-align: top;
+				width: 48%;
+			}
+
+				ul.feature-icons-footer li:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				ul.feature-icons-footer li:before {
+					background: #DB5C66;
+					border-radius: 100%;
+					color: #ffffff;
+					display: block;
+					height: 2.5em;
+					left: 0;
+					line-height: 2.5em;
+					position: absolute;
+					text-align: center;
+					top: 0;
+					width: 2.5em;
+				}
+
 		ul.icons {
 			cursor: default;
 			list-style: none;
@@ -2387,14 +2463,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #5ed0b1;
+				background-color: #DB5C66;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #39c29d;
+				background-color: #DB5C66;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3074,6 +3150,16 @@
 					}
 
 			ul.feature-icons li {
+				display: block;
+				width: 100%;
+			}
+        
+            ul.feature-icons-education li {
+				display: block;
+				width: 100%;
+			}
+        
+            ul.feature-icons-footer li {
 				display: block;
 				width: 100%;
 			}
