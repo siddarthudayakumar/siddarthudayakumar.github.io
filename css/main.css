@@ -2464,7 +2464,7 @@
 		background: #DB2B39;
 		color: #DB5C66;
 		height: 100%;
-		overflow-y: auto;
+		overflow-y: visible;
 		position: fixed;
 		text-align: center;
 		top: 0;
