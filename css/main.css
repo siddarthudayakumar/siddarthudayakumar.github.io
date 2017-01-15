@@ -2464,7 +2464,7 @@
 		background: #DB2B39;
 		color: #DB5C66;
 		height: 100%;
-		overflow-y: visible;
+		overflow-y: hidden;
 		position: fixed;
 		text-align: center;
 		top: 0;
@@ -2747,7 +2747,7 @@
 				transition: transform 0.5s ease;
 				display: block;
 				height: 100%;
-				overflow-y: auto;
+				overflow-y: hidden;
 				position: fixed;
 				top: 0;
 				width: 23em;
